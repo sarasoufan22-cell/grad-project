@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Jeep",
+    "image": "newCars/download (29)-fotor-bg-remover-20251012182143-ig-profile-photo-320-320.png",
+    "page": "Jeep.html"
+    
+  },
+  {
+    "name": "Dodge",
+    "image": "newCars/download (30)-fotor-bg-remover-20251012182519-ig-profile-photo-320-320.png",
+    "page": "Dodge.html"
+  },
+  {
+    "name": "Honda",
+    "image": "newCars/download (19)-removebg-preview.jpg",
+    "page": "Honda.html"
+  },
+  {
+    "name": "Nissan",
+    "image": "newCars/download (20)-removebg-preview.jpg",
+    "page": "Nissan.html"
+  },
+  {
+    "name": "BMW",
+    "image": "newCars/download (25)-fotor-bg-remover-20251012175821-ig-profile-photo-320-320.png",
+    "page": "BMW.html"
+  },
+  {
+    "name": "Audi",
+    "image": "newCars/download (22)-removebg-preview.jpg",
+    "page": "Audi.html"
+  },
+  {
+    "name": "Volkswagen",
+    "image": "newCars/download (27)-fotor-bg-remover-20251012175531-ig-profile-photo-320-320.png",
+    "page": "Volkswagen.html"
+  },
+  {
+    "name": "Mitsubishi",
+    "image": "newCars/download (26)-removebg-preview.jpg",
+    "page": "Mitsubishi.html"
+  },
+  {
+    "name": "Mercedes",
+    "image": "newCars/download (26)-fotor-bg-remover-20251012175741-ig-profile-photo-320-320.png",
+    "page": "Mercedes.html"
+  },
+  {
+    "name": "Hyundai",
+    "image": "newCars/download (28)-fotor-bg-remover-2025101217553-ig-profile-photo-320-320.png",
+    "page": "Hyundai.html"
+  },
+  {
+    "name": "Rolls Royce",
+    "image": "newCars/Midjourney_  Elegant pink Rolls-Royce Phantom showcased against white background_-removebg-preview.jpg",
+    "page": "RollsRoyce.html"
+  },
+  {
+    "name": "Ford",
+    "image": "newCars/Mustang car wallpaper-removebg-preview.jpg",
+    "page": "Ford.html"
+  },
+  {
+    "name": "Chevrolet",
+    "image": "newCars/download (24)-fotor-bg-remover-20251012175847-ig-profile-photo-320-320.png",
+    "page": "Chevrolet.html"
+  },
+  {
+    "name": "Ferrari",
+    "image": "newCars/𝒶𝓊𝓉𝑜 𝓇𝑜𝓈𝑒™-fotor-bg-remover-20251012175917-ig-profile-photo-320-320.png",
+    "page": "Ferrari.html"
+  },
+  {
+    "name": "Subaru",
+    "image": "newCars/Pink Rocket Bunny Subaru BRZJapanese Wallpaper Poster-removebg-preview.jpg",
+    "page": "Subaro.html"
+  },
+  {
+    "name": "Toyota",
+    "image": "newCars/Pink JDM Toyota Supra MK5-fotor-bg-remover-2025101218136-ig-profile-photo-320-320.png",
+    "page": "Toyota.html"
+  },
+  {
+    "name": "Bugatti",
+    "image": "newCars/Pink Bugatti Chiron-removebg-preview.jpg",
+    "page": "Bugatti.html"
+  },
+  
+  {
+    "name": "Mazda",
+    "image": "newCars/Yokai_Mazda __ pink car love-fotor-bg-remover-2025101217545.png",
+    "page": "Mazda.html"
+  }
+]

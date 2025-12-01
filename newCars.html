@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latest Cars</title>
+  <link rel="stylesheet" href="newCars.css"/>
+</head>
+<body>
+  <h1 class="page-title">Latest Car Models</h1>
+
+  <!-- Grid container -->
+  <div id="carGrid" class="grid-container"></div>
+
+  <script>
+    // Fetch car data and render the grid
+    fetch("newCars.json")
+      .then((response) => response.json())
+      .then((cars) => {
+        const grid = document.getElementById("carGrid");
+
+        cars.forEach((car) => {
+          // Create the card link
+          const link = document.createElement("a");
+          link.href = car.page;
+          link.classList.add("car-card");
+
+          // Create the image
+          const img = document.createElement("img");
+          img.src = car.image;
+          img.alt = car.name;
+
+          // Create the name text
+          const name = document.createElement("p");
+          name.textContent = car.name;
+
+          // Combine them
+          link.appendChild(img);
+          link.appendChild(name);
+          grid.appendChild(link);
+        });
+      })
+      .catch((err) => {
+        console.error("Error loading cars:", err);
+      });
+  </script>
+</body>
+</html>

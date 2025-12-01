@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Signup.css">
+        <title>Drive and Deal</title>
+        <script type="module" src="Signup.js"></script>
+    </head>
+    
+
+    <body>
+        <div class="container">
+        <img class="signpic" src="photo/download__14_-removebg-preview_LE_upscale_balanced_x4_Nero_AI_Object_Remover.jpeg" width="523" height="1023"  >  
+        <img class="carpic" src="photo/Vector_illustration_of_a_pink_classic_convertible_retro_car_Stock_Vector___Adobe_Stock-removebg-preview.png" width="500" height="500">
+        
+        </div>
+    <div class="sign">
+        <div class="formBox">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="LogIn()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="SignUp()">Sign Up</button>
+            </div>
+        </div>
+        <form id="LogIn" class="input-group">
+            <input type="text" class="input-field" placeholder="User Name" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            
+            <a href="index.html">
+            <button type="submit" class="submit-btn" id="loginSubmitBtn">Log In</button>
+            </a>
+        </form>
+        <form id="SignUp" class="input-group">
+            <input type="text" class="input-field" placeholder="First Name" required>
+            <input type="text" class="input-field" placeholder="Last Name" required>
+            <input type="email" class="input-field" placeholder="Email" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="password" class="input-field" placeholder="Confirm Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+    </div>
+    <script>
+        var x=document.getElementById("LogIn");
+        var y=document.getElementById("SignUp");
+        var z=document.getElementById("btn");
+
+        function SignUp(){
+            x.style.left="-300px";
+            y.style.left="10px";
+            z.style.left="110px";
+            x.style.display = "none";  
+            y.style.display = "block";
+        }
+        function LogIn(){
+            x.style.left="10px";
+            y.style.left="410px";
+            z.style.left="0px";
+            x.style.display = "block";  
+            y.style.display = "none"; 
+        }
+    </script>
+    <!-- <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.4.0/firebase-analytics.js";
+  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } 
+                from "https://www.gstatic.com/firebasejs/12.4.0/firebase-auth.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDVsROiSzdQwfNwotsHHaqi-7Dk1p5uhC8",
+    authDomain: "drive-and-deal-2664a.firebaseapp.com",
+    projectId: "drive-and-deal-2664a",
+    storageBucket: "drive-and-deal-2664a.firebasestorage.app",
+    messagingSenderId: "226773683891",
+    appId: "1:226773683891:web:68fb1b7a77553d7df4eac6",
+    measurementId: "G-F57HGM7LJK"
+  };
+ 
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  
+</script>
+<script>
+    // Redirect Log In button to index.html after click
+    const loginBtn = document.querySelector('#LogIn .submit-btn');
+    loginBtn.addEventListener('click', (e) => {
+        // Remove default form submission so Firebase can handle login
+        e.preventDefault();
+        // Redirect to index.html
+        window.location.href = "index.html";
+    });
+
+    // Redirect Sign Up button to index.html after click
+    const signUpBtn = document.querySelector('#SignUp .submit-btn');
+    signUpBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.location.href = "index.html";
+    });
+</script> -->
+
+
+    </body>
+     
+
+</html>

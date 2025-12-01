@@ -1,0 +1,54 @@
+.pic{
+    position: fixed;       
+    top: 0px;               
+    left: 0;              
+    width: 101%;          
+    height: 100%;         
+    z-index: -1;          
+    margin: 0; 
+}
+.text00{
+    position: absolute;
+    font-family: Lucida ,cursive;
+    font-size:35px;
+    color:  #ff5ace;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-weight: bold;
+}
+.text11{
+    position: absolute;
+    font-family: Lucida ,cursive;
+    font-size: 20px;
+    color:  #ff6bd3;
+    margin-top: 200px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.text22{
+    position: absolute;
+    font-family: Lucida ,cursive;
+    font-size:20px;
+    color:  #ff6bd3;
+    margin-top: 300px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.text33{
+    position: absolute;
+    font-family: Lucida ,cursive;
+    font-size:20px;
+    color:  #ff6bd3;
+    margin-top: 400px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.text44{
+    position: absolute;
+    font-family: Lucida ,cursive;
+    font-size:20px;
+    color:  #ff6bd3;
+    margin-top: 500px;
+    margin-left: 100px;
+    font-weight: bold;
+}

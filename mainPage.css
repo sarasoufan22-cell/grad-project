@@ -1,0 +1,118 @@
+.navbar{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color:  antiquewhite;
+    padding: 15px;
+    margin: 10px;
+    background-color:#fd9fb8;
+    width: 1225px;
+    height: 70px;
+    padding-right: 50px;
+    border-radius: 100px;
+    align-items: center;         
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.navText{
+display: inline-flex;
+margin-left:-90px ;}
+.navdiv{
+    
+    margin-left: 700px;
+    
+}
+body {
+  background-color:#fceef1; 
+ 
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+
+} 
+li a{
+    color:#ffe3ea;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+.logo{
+    position:absolute;
+    left: 50px;
+    top: 25px;
+    
+}
+
+
+.pic{
+    
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    display: block; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1; 
+
+}
+a .ChatBot{
+  position: relative;
+    left: 1370px;
+    top: 580px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 50%;
+
+}
+.signin-btn {
+  background-color: #ffb6c1;   /* soft pink */
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  
+  transition: all 0.3s ease;
+  border: 0.5px solid white;
+  
+}
+
+.signin-btn:hover {
+  background-color: white;
+  color: #ff99b9;             /* pink text when hovered */
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.8);
+}
+
+/*.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px; /* spacing between links 
+  margin: 0;
+  padding: 0;
+}
+.nav-links {
+  display: flex;
+  gap: 30px; /* spacing between links 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffb6c1;
+}*/

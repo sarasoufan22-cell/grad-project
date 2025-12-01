@@ -1,0 +1,125 @@
+body{
+    background-color: #ffeff2;
+    position: relative;
+}
+.box{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    width: 500px;
+    height: 600px;
+    background-color: #fcf6f8;
+    border: 2px solid #fcf6f8;
+    padding: 15px;
+    border-radius: 30px;
+    
+}
+.car1{
+    position:absolute;
+    margin-left: 40px;
+    margin-top: 240px;
+
+}
+.text0{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+    color: #ff899e;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.text5{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color: #ff6380;
+    margin-top: 160px;
+    margin-left: 50px;
+    
+}
+.text6{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color: #ff6380;
+    margin-top: 110px;
+    margin-left: 50px;
+    
+}
+.text7{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color:  #ff899e;
+    margin-top: 220px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.text8{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color:  #ff899e;
+    margin-top: 60px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.text9{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    color: #ff6380;
+    margin-top: 270px;
+    margin-left: 50px;
+    
+}
+.phone1{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    background: #ffeff2;
+    background-color: #ffeff2;
+}
+.phone2{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 380px;
+}
+.phone3{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 310px;
+}
+.text{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: #ff899e;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.text2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #ffa7b7;
+    margin-top: 230px;
+    margin-left: 40px;
+}
+.text3{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #ffa7b7;
+    margin-top: 290px;
+    margin-left: 300px;
+}
+.text4{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #ffa7b7;
+    margin-top: 230px;
+    margin-left: 500px;
+}
